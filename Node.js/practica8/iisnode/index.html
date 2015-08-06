@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>iisnode logs</title>
+    <style type="text/css">
+        body
+        {
+            font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+        }
+        table
+        {
+            border-collapse: collapse;
+        }
+        td, th
+        {
+            border: 1px solid lightgray;
+            padding: 3px 7px 2px 7px;
+        }
+        th
+        {
+            text-align: left;
+            padding-top: 5px;
+            padding-bottom: 4px;
+            background-color: Gray;
+            color: #ffffff;
+        }
+        td.stderr
+        {
+            color: Red;
+        }
+    </style>
+</head>
+<body>
+    <table id="logFilesTable">
+        <tr>
+            <th>
+                Computer name
+            </th>
+            <th>
+                PID
+            </th>
+            <th>
+                Type
+            </th>
+            <th>
+                Created
+            </th>
+            <th>
+                Link
+            </th>
+        </tr>
+    </table>
+    <p id="lastUpdated"></p>
+    <script type="text/javascript">
+
+        // this is replaced with actual data at runtime by code in interceptor.js
+        var logFiles = [{"file":"MANUFIJO-10104-stderr-1438880570930.txt","computername":"MANUFIJO","pid":10104,"type":"stderr","created":1438880570930},{"file":"MANUFIJO-10260-stderr-1438880551554.txt","computername":"MANUFIJO","pid":10260,"type":"stderr","created":1438880551554},{"file":"MANUFIJO-10276-stderr-1438880469295.txt","computername":"MANUFIJO","pid":10276,"type":"stderr","created":1438880469295},{"file":"MANUFIJO-10376-stderr-1438881130310.txt","computername":"MANUFIJO","pid":10376,"type":"stderr","created":1438881130310},{"file":"MANUFIJO-10568-stderr-1438880554109.txt","computername":"MANUFIJO","pid":10568,"type":"stderr","created":1438880554109},{"file":"MANUFIJO-10620-stderr-1438880554462.txt","computername":"MANUFIJO","pid":10620,"type":"stderr","created":1438880554462},{"file":"MANUFIJO-11152-stderr-1438880551192.txt","computername":"MANUFIJO","pid":11152,"type":"stderr","created":1438880551192},{"file":"MANUFIJO-2724-stderr-1438880298069.txt","computername":"MANUFIJO","pid":2724,"type":"stderr","created":1438880298069},{"file":"MANUFIJO-384-stderr-1438880884897.txt","computername":"MANUFIJO","pid":384,"type":"stderr","created":1438880884897},{"file":"MANUFIJO-4072-stderr-1438880526473.txt","computername":"MANUFIJO","pid":4072,"type":"stderr","created":1438880526473},{"file":"MANUFIJO-4292-stderr-1438880554858.txt","computername":"MANUFIJO","pid":4292,"type":"stderr","created":1438880554858},{"file":"MANUFIJO-5732-stderr-1438880100691.txt","computername":"MANUFIJO","pid":5732,"type":"stderr","created":1438880100691},{"file":"MANUFIJO-6112-stderr-1438880553483.txt","computername":"MANUFIJO","pid":6112,"type":"stderr","created":1438880553483},{"file":"MANUFIJO-6656-stderr-1438880468888.txt","computername":"MANUFIJO","pid":6656,"type":"stderr","created":1438880468888},{"file":"MANUFIJO-7504-stderr-1438880551922.txt","computername":"MANUFIJO","pid":7504,"type":"stderr","created":1438880551922},{"file":"MANUFIJO-8112-stderr-1438880549600.txt","computername":"MANUFIJO","pid":8112,"type":"stderr","created":1438880549600},{"file":"MANUFIJO-832-stderr-1438880552929.txt","computername":"MANUFIJO","pid":832,"type":"stderr","created":1438880552929},{"file":"MANUFIJO-8356-stderr-1438880569043.txt","computername":"MANUFIJO","pid":8356,"type":"stderr","created":1438880569043},{"file":"MANUFIJO-900-stderr-1438880121803.txt","computername":"MANUFIJO","pid":900,"type":"stderr","created":1438880121803},{"file":"MANUFIJO-9148-stderr-1438880552278.txt","computername":"MANUFIJO","pid":9148,"type":"stderr","created":1438880552278},{"file":"MANUFIJO-9392-stderr-1438880788269.txt","computername":"MANUFIJO","pid":9392,"type":"stderr","created":1438880788269}];
+        var lastUpdated = 1438881130321;
+        var date = new Date();
+
+        date.setTime(lastUpdated);
+        document.getElementById('lastUpdated').innerHTML = 'Index was last updated ' + date;
+
+        logFiles.sort(function (a, b) {
+            return b.created - a.created;
+        });
+
+        var logFilesTable = document.getElementById("logFilesTable");
+        for (var i = 0; i < logFiles.length; i++) {
+            var logFile = logFiles[i];
+            date.setTime(logFile.created);
+            var row = logFilesTable.insertRow(-1);
+            var computerNameCell = row.insertCell(0);
+            var pidCell = row.insertCell(1);
+            var typeCell = row.insertCell(2);
+            var dateCell = row.insertCell(3);
+            var logCell = row.insertCell(4);
+            computerNameCell.innerHTML = logFile.computername;
+            pidCell.innerHTML = logFile.pid.toString();
+            typeCell.innerHTML = logFile.type;
+            typeCell.setAttribute('class', logFile.type);
+            dateCell.innerHTML = date.toString();
+            logCell.innerHTML = '<a href="' + logFile.file + '">log</a>';
+        };
+
+    </script>
+</body>
+</html>
