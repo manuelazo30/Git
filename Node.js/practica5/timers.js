@@ -6,25 +6,30 @@ Operan igual que en el navegador (igual que en chrome por )
 
 Métodos::
 
-.setTimeout
-.setIntervalx
-.clearTimeout
-.clearInterval
+.setTimeout --> Inicia un timer
+.setInterval --> Inicia un timer que se repetirá cada X segundos
+.clearTimeout --> Limpiamos un timer asignado por setTimeout
+.clearInterval --> Limpiamos un timer asignado por setInterval
 
 */
 
 
 
-// ejemplo simple de timeout - espera dos segundos antes de continuar el siguiente paso
+// ejemplo simple de timeout - espera dos segundos antes de llamar a cleartimeout_ejemplo() (Ir al siguiente paso)
 var start_time = new Date();
 sys.puts("Inicia un timer de 2 segundos");
 
 setTimeout(function()
 	{
+		console.log("Comenzamos setTimeout");
 		var end_time = new Date();
+		//console.log(end_time);
 		var difference = end_time.getTime() - start_time.getTime();
+		//console.log(difference);
 		sys.puts("Detener el timer después de " + Math.round(difference/1000) + " segundos");
+//		console.log("Pasamos a cleartimeout");
 		cleartimeout_ejemplo();
+//		console.log("Voldemos de cleartimeout");
 	}
 , 2000);
 
