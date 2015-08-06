@@ -16,4 +16,6 @@ Aquí está el archivo home.js que tiene toda la lógica de vistas que hay en nu
 
 En la carpeta public se sirven todos esos ficheros con un manejador de archivos estáticos.
 Usa lesscss para renderizar el .less y hacerlo .css
+
+Ver www.socket.io
 */

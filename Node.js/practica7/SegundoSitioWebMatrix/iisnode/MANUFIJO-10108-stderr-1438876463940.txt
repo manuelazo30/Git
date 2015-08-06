@@ -1,0 +1,12 @@
+Application has thrown an uncaught exception and is terminated:
+TypeError: first argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:433:11)
+    at Server.<anonymous> (I:\Git\Node.js\practica7\SegundoSitioWebMatrix\server.js:52:22)
+    at Server.emit (events.js:110:17)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:491:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:111:23)
+    at Socket.socketOnData (_http_server.js:343:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at Pipe.onread (net.js:538:20)

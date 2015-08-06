@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>iisnode logs</title>
+    <style type="text/css">
+        body
+        {
+            font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+        }
+        table
+        {
+            border-collapse: collapse;
+        }
+        td, th
+        {
+            border: 1px solid lightgray;
+            padding: 3px 7px 2px 7px;
+        }
+        th
+        {
+            text-align: left;
+            padding-top: 5px;
+            padding-bottom: 4px;
+            background-color: Gray;
+            color: #ffffff;
+        }
+        td.stderr
+        {
+            color: Red;
+        }
+    </style>
+</head>
+<body>
+    <table id="logFilesTable">
+        <tr>
+            <th>
+                Computer name
+            </th>
+            <th>
+                PID
+            </th>
+            <th>
+                Type
+            </th>
+            <th>
+                Created
+            </th>
+            <th>
+                Link
+            </th>
+        </tr>
+    </table>
+    <p id="lastUpdated"></p>
+    <script type="text/javascript">
+
+        // this is replaced with actual data at runtime by code in interceptor.js
+        var logFiles = [{"file":"MANUFIJO-10108-stderr-1438876309629.txt","computername":"MANUFIJO","pid":10108,"type":"stderr","created":1438876309629},{"file":"MANUFIJO-10108-stderr-1438876463940.txt","computername":"MANUFIJO","pid":10108,"type":"stderr","created":1438876463940},{"file":"MANUFIJO-10248-stderr-1438876384608.txt","computername":"MANUFIJO","pid":10248,"type":"stderr","created":1438876384608},{"file":"MANUFIJO-104-stderr-1438872002817.txt","computername":"MANUFIJO","pid":104,"type":"stderr","created":1438872002817},{"file":"MANUFIJO-10440-stderr-1438876674389.txt","computername":"MANUFIJO","pid":10440,"type":"stderr","created":1438876674389},{"file":"MANUFIJO-10440-stderr-1438876884475.txt","computername":"MANUFIJO","pid":10440,"type":"stderr","created":1438876884475},{"file":"MANUFIJO-10456-stdout-1438873209467.txt","computername":"MANUFIJO","pid":10456,"type":"stdout","created":1438873209467},{"file":"MANUFIJO-10560-stderr-1438876382770.txt","computername":"MANUFIJO","pid":10560,"type":"stderr","created":1438876382770},{"file":"MANUFIJO-10560-stderr-1438876751306.txt","computername":"MANUFIJO","pid":10560,"type":"stderr","created":1438876751306},{"file":"MANUFIJO-10564-stderr-1438876883755.txt","computername":"MANUFIJO","pid":10564,"type":"stderr","created":1438876883755},{"file":"MANUFIJO-10640-stderr-1438876888852.txt","computername":"MANUFIJO","pid":10640,"type":"stderr","created":1438876888852},{"file":"MANUFIJO-10648-stderr-1438876679321.txt","computername":"MANUFIJO","pid":10648,"type":"stderr","created":1438876679321},{"file":"MANUFIJO-10720-stderr-1438876879380.txt","computername":"MANUFIJO","pid":10720,"type":"stderr","created":1438876879380},{"file":"MANUFIJO-10740-stderr-1438876277894.txt","computername":"MANUFIJO","pid":10740,"type":"stderr","created":1438876277894},{"file":"MANUFIJO-10780-stderr-1438876675558.txt","computername":"MANUFIJO","pid":10780,"type":"stderr","created":1438876675558},{"file":"MANUFIJO-10840-stderr-1438876660555.txt","computername":"MANUFIJO","pid":10840,"type":"stderr","created":1438876660555},{"file":"MANUFIJO-10852-stderr-1438876880991.txt","computername":"MANUFIJO","pid":10852,"type":"stderr","created":1438876880991},{"file":"MANUFIJO-10904-stderr-1438876888474.txt","computername":"MANUFIJO","pid":10904,"type":"stderr","created":1438876888474},{"file":"MANUFIJO-10968-stderr-1438876449332.txt","computername":"MANUFIJO","pid":10968,"type":"stderr","created":1438876449332},{"file":"MANUFIJO-10968-stderr-1438876876528.txt","computername":"MANUFIJO","pid":10968,"type":"stderr","created":1438876876528},{"file":"MANUFIJO-10968-stderr-1438876886191.txt","computername":"MANUFIJO","pid":10968,"type":"stderr","created":1438876886191},{"file":"MANUFIJO-11076-stderr-1438876887281.txt","computername":"MANUFIJO","pid":11076,"type":"stderr","created":1438876887281},{"file":"MANUFIJO-11148-stderr-1438876385302.txt","computername":"MANUFIJO","pid":11148,"type":"stderr","created":1438876385302},{"file":"MANUFIJO-11216-stderr-1438871953563.txt","computername":"MANUFIJO","pid":11216,"type":"stderr","created":1438871953563},{"file":"MANUFIJO-11300-stderr-1438876280350.txt","computername":"MANUFIJO","pid":11300,"type":"stderr","created":1438876280350},{"file":"MANUFIJO-11332-stderr-1438876886548.txt","computername":"MANUFIJO","pid":11332,"type":"stderr","created":1438876886548},{"file":"MANUFIJO-11476-stderr-1438876879020.txt","computername":"MANUFIJO","pid":11476,"type":"stderr","created":1438876879020},{"file":"MANUFIJO-11532-stderr-1438876308154.txt","computername":"MANUFIJO","pid":11532,"type":"stderr","created":1438876308154},{"file":"MANUFIJO-11576-stderr-1438876876922.txt","computername":"MANUFIJO","pid":11576,"type":"stderr","created":1438876876922},{"file":"MANUFIJO-11596-stderr-1438876433420.txt","computername":"MANUFIJO","pid":11596,"type":"stderr","created":1438876433420},{"file":"MANUFIJO-11680-stderr-1438876887629.txt","computername":"MANUFIJO","pid":11680,"type":"stderr","created":1438876887629},{"file":"MANUFIJO-1184-stderr-1438876886901.txt","computername":"MANUFIJO","pid":1184,"type":"stderr","created":1438876886901},{"file":"MANUFIJO-11900-stderr-1438876447478.txt","computername":"MANUFIJO","pid":11900,"type":"stderr","created":1438876447478},{"file":"MANUFIJO-12020-stderr-1438876878222.txt","computername":"MANUFIJO","pid":12020,"type":"stderr","created":1438876878222},{"file":"MANUFIJO-12200-stderr-1438876676212.txt","computername":"MANUFIJO","pid":12200,"type":"stderr","created":1438876676212},{"file":"MANUFIJO-1704-stderr-1438876696789.txt","computername":"MANUFIJO","pid":1704,"type":"stderr","created":1438876696789},{"file":"MANUFIJO-2072-stderr-1438876310733.txt","computername":"MANUFIJO","pid":2072,"type":"stderr","created":1438876310733},{"file":"MANUFIJO-2108-stderr-1438876700247.txt","computername":"MANUFIJO","pid":2108,"type":"stderr","created":1438876700247},{"file":"MANUFIJO-2224-stderr-1438876880199.txt","computername":"MANUFIJO","pid":2224,"type":"stderr","created":1438876880199},{"file":"MANUFIJO-2420-stderr-1438876671630.txt","computername":"MANUFIJO","pid":2420,"type":"stderr","created":1438876671630},{"file":"MANUFIJO-2420-stderr-1438876874812.txt","computername":"MANUFIJO","pid":2420,"type":"stderr","created":1438876874812},{"file":"MANUFIJO-2568-stderr-1438876309217.txt","computername":"MANUFIJO","pid":2568,"type":"stderr","created":1438876309217},{"file":"MANUFIJO-3628-stderr-1438876882280.txt","computername":"MANUFIJO","pid":3628,"type":"stderr","created":1438876882280},{"file":"MANUFIJO-4208-stderr-1438876873353.txt","computername":"MANUFIJO","pid":4208,"type":"stderr","created":1438876873353},{"file":"MANUFIJO-4616-stderr-1438876657437.txt","computername":"MANUFIJO","pid":4616,"type":"stderr","created":1438876657437},{"file":"MANUFIJO-4620-stderr-1438876450685.txt","computername":"MANUFIJO","pid":4620,"type":"stderr","created":1438876450685},{"file":"MANUFIJO-5444-stderr-1438876893085.txt","computername":"MANUFIJO","pid":5444,"type":"stderr","created":1438876893085},{"file":"MANUFIJO-5532-stderr-1438873973609.txt","computername":"MANUFIJO","pid":5532,"type":"stderr","created":1438873973609},{"file":"MANUFIJO-5768-stderr-1438876493630.txt","computername":"MANUFIJO","pid":5768,"type":"stderr","created":1438876493630},{"file":"MANUFIJO-5820-stderr-1438874032808.txt","computername":"MANUFIJO","pid":5820,"type":"stderr","created":1438874032808},{"file":"MANUFIJO-5888-stderr-1438876679705.txt","computername":"MANUFIJO","pid":5888,"type":"stderr","created":1438876679705},{"file":"MANUFIJO-6124-stderr-1438876430094.txt","computername":"MANUFIJO","pid":6124,"type":"stderr","created":1438876430094},{"file":"MANUFIJO-6196-stderr-1438876884834.txt","computername":"MANUFIJO","pid":6196,"type":"stderr","created":1438876884834},{"file":"MANUFIJO-6204-stderr-1438876884115.txt","computername":"MANUFIJO","pid":6204,"type":"stderr","created":1438876884115},{"file":"MANUFIJO-6208-stderr-1438876678647.txt","computername":"MANUFIJO","pid":6208,"type":"stderr","created":1438876678647},{"file":"MANUFIJO-6268-stderr-1438876384948.txt","computername":"MANUFIJO","pid":6268,"type":"stderr","created":1438876384948},{"file":"MANUFIJO-6404-stderr-1438876859483.txt","computername":"MANUFIJO","pid":6404,"type":"stderr","created":1438876859483},{"file":"MANUFIJO-6456-stderr-1438876448965.txt","computername":"MANUFIJO","pid":6456,"type":"stderr","created":1438876448965},{"file":"MANUFIJO-6632-stderr-1438876673533.txt","computername":"MANUFIJO","pid":6632,"type":"stderr","created":1438876673533},{"file":"MANUFIJO-6784-stderr-1438876660188.txt","computername":"MANUFIJO","pid":6784,"type":"stderr","created":1438876660188},{"file":"MANUFIJO-6880-stderr-1438873987221.txt","computername":"MANUFIJO","pid":6880,"type":"stderr","created":1438873987221},{"file":"MANUFIJO-7144-stderr-1438871991772.txt","computername":"MANUFIJO","pid":7144,"type":"stderr","created":1438871991772},{"file":"MANUFIJO-7172-stderr-1438876887995.txt","computername":"MANUFIJO","pid":7172,"type":"stderr","created":1438876887995},{"file":"MANUFIJO-7308-stderr-1438876451084.txt","computername":"MANUFIJO","pid":7308,"type":"stderr","created":1438876451084},{"file":"MANUFIJO-7596-stderr-1438876883158.txt","computername":"MANUFIJO","pid":7596,"type":"stderr","created":1438876883158},{"file":"MANUFIJO-7684-stderr-1438873988183.txt","computername":"MANUFIJO","pid":7684,"type":"stderr","created":1438873988183},{"file":"MANUFIJO-7724-stderr-1438876875697.txt","computername":"MANUFIJO","pid":7724,"type":"stderr","created":1438876875697},{"file":"MANUFIJO-7812-stderr-1438876450093.txt","computername":"MANUFIJO","pid":7812,"type":"stderr","created":1438876450093},{"file":"MANUFIJO-7812-stderr-1438876879744.txt","computername":"MANUFIJO","pid":7812,"type":"stderr","created":1438876879744},{"file":"MANUFIJO-7852-stderr-1438876885828.txt","computername":"MANUFIJO","pid":7852,"type":"stderr","created":1438876885828},{"file":"MANUFIJO-7892-stderr-1438873987844.txt","computername":"MANUFIJO","pid":7892,"type":"stderr","created":1438873987844},{"file":"MANUFIJO-7960-stdout-1438873249994.txt","computername":"MANUFIJO","pid":7960,"type":"stdout","created":1438873249994},{"file":"MANUFIJO-8076-stderr-1438876677656.txt","computername":"MANUFIJO","pid":8076,"type":"stderr","created":1438876677656},{"file":"MANUFIJO-8156-stderr-1438876677024.txt","computername":"MANUFIJO","pid":8156,"type":"stderr","created":1438876677024},{"file":"MANUFIJO-8280-stderr-1438876309963.txt","computername":"MANUFIJO","pid":8280,"type":"stderr","created":1438876309963},{"file":"MANUFIJO-8296-stderr-1438876885460.txt","computername":"MANUFIJO","pid":8296,"type":"stderr","created":1438876885460},{"file":"MANUFIJO-9108-stderr-1438876673050.txt","computername":"MANUFIJO","pid":9108,"type":"stderr","created":1438876673050},{"file":"MANUFIJO-9112-stderr-1438873953795.txt","computername":"MANUFIJO","pid":9112,"type":"stderr","created":1438873953795},{"file":"MANUFIJO-9224-stderr-1438876384243.txt","computername":"MANUFIJO","pid":9224,"type":"stderr","created":1438876384243},{"file":"MANUFIJO-9232-stderr-1438876492365.txt","computername":"MANUFIJO","pid":9232,"type":"stderr","created":1438876492365},{"file":"MANUFIJO-9232-stderr-1438876881589.txt","computername":"MANUFIJO","pid":9232,"type":"stderr","created":1438876881589},{"file":"MANUFIJO-9276-stderr-1438873974467.txt","computername":"MANUFIJO","pid":9276,"type":"stderr","created":1438873974467},{"file":"MANUFIJO-9292-stderr-1438876877288.txt","computername":"MANUFIJO","pid":9292,"type":"stderr","created":1438876877288},{"file":"MANUFIJO-9320-stderr-1438876878669.txt","computername":"MANUFIJO","pid":9320,"type":"stderr","created":1438876878669},{"file":"MANUFIJO-9392-stderr-1438876678066.txt","computername":"MANUFIJO","pid":9392,"type":"stderr","created":1438876678066},{"file":"MANUFIJO-9568-stderr-1438876449722.txt","computername":"MANUFIJO","pid":9568,"type":"stderr","created":1438876449722},{"file":"MANUFIJO-9568-stderr-1438876673897.txt","computername":"MANUFIJO","pid":9568,"type":"stderr","created":1438876673897},{"file":"MANUFIJO-9700-stderr-1438876882768.txt","computername":"MANUFIJO","pid":9700,"type":"stderr","created":1438876882768}];
+        var lastUpdated = 1438876893244;
+        var date = new Date();
+
+        date.setTime(lastUpdated);
+        document.getElementById('lastUpdated').innerHTML = 'Index was last updated ' + date;
+
+        logFiles.sort(function (a, b) {
+            return b.created - a.created;
+        });
+
+        var logFilesTable = document.getElementById("logFilesTable");
+        for (var i = 0; i < logFiles.length; i++) {
+            var logFile = logFiles[i];
+            date.setTime(logFile.created);
+            var row = logFilesTable.insertRow(-1);
+            var computerNameCell = row.insertCell(0);
+            var pidCell = row.insertCell(1);
+            var typeCell = row.insertCell(2);
+            var dateCell = row.insertCell(3);
+            var logCell = row.insertCell(4);
+            computerNameCell.innerHTML = logFile.computername;
+            pidCell.innerHTML = logFile.pid.toString();
+            typeCell.innerHTML = logFile.type;
+            typeCell.setAttribute('class', logFile.type);
+            dateCell.innerHTML = date.toString();
+            logCell.innerHTML = '<a href="' + logFile.file + '">log</a>';
+        };
+
+    </script>
+</body>
+</html>
