@@ -9,4 +9,12 @@ utf8
 usc2 (Unicode)
 base64
 hex
+
+Podemos también escribir un string a un buffer ya existente, dando un offset (tamaño ) y una codificación.
+
+Métodos para leer y escribir el buffer:
+
+buffer.readint8
+buffer.writeint8
+
 */
