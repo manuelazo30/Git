@@ -1,0 +1,4 @@
+Application has thrown an uncaught exception and is terminated:
+ReferenceError: alert is not defined
+    at I:\Git\Node.js\practica9\server.js:37:9
+    at FSReqWrap.oncomplete (fs.js:95:15)

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Dom1</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	Valores de null: <br><br>
+	null = 0 <br>
+	null = "" <br>
+	null = false <br>
+
+	<script>
+		var pregunta = "Estas de acuerdo";
+		var respuesta = confirm(pregunta);
+
+		if (respuesta)
+			alert("Has dicho que sí");
+		else
+			alert ("No has dicho que sí");
+
+		var nombre = prompt("Por favor, introduce tu nombre", "Pon aquí tu nombre");
+		var edad = prompt("Por favor, introduce tu edad");
+
+		if (!nombre)
+			alert ("Escribe tu nombreeeeeeeeeeee!!!");
+		else
+			alert("Hola " + nombre + ". Tienes " + edad + " años.");
+
+	</script>
+</body>
+</html>

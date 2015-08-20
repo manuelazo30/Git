@@ -1,5 +1,0 @@
-Application has thrown an uncaught exception and is terminated:
-ReferenceError: responde is not defined
-    at I:\Git\Node.js\practica8\server.js:31:17
-    at fs.js:334:14
-    at FSReqWrap.oncomplete (fs.js:95:15)

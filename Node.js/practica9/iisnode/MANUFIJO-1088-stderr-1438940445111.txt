@@ -1,0 +1,7 @@
+Application has thrown an uncaught exception and is terminated:
+TypeError: path must be a string
+    at TypeError (native)
+    at Object.fs.open (fs.js:491:11)
+    at Object.fs.readFile (fs.js:262:6)
+    at I:\Git\Node.js\practica9\server.js:21:16
+    at FSReqWrap.oncomplete (fs.js:95:15)

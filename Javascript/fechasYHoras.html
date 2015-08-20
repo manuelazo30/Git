@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Objeto Navigator</title>
+	<link rel="stylesheet" href="estilos.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+</head>
+<body>
+
+No forma parte del DOM, por lo que hay que crear objetos Date.
+
+Constructores: <br><br>
+
+
+<table>
+	<th>
+		Constructor
+	</th>
+	<th>
+		Descripción
+	</th>
+	<tr>
+		<td>new date(YYYY-MM-DD)</td>
+		<td>Crea un objeto el día, mes y año especificado</td>
+	</tr>
+	<tr>
+		<td>new date(YYYY-MM)</td>
+		<td>Crea un objeto el mes y año especificado</td>
+	</tr>
+	<tr>
+		<td>new Date("03/25/2015");</td>
+		<td>Crea un objeto el día, mes y año especificado</td>
+	</tr>
+	<tr>
+		<td>new Date("03-25-2015");</td>
+		<td>Crea un objeto el día, mes y año especificado</td>
+	</tr>	
+</table>
+
+<br><br>
+
+
+<table>
+	<th>
+		Métodos
+	</th>
+	<th>
+		Descripción
+	</th>
+	<tr>
+		<td>getdate()</td>
+		<td>Devuelve el día en número (1-31)</td>		
+	</tr>
+	<tr>
+		<td>getDay()</td>
+		<td>Devuelve el día en número de la semana (0-6)</td>		
+	</tr>
+	<tr>
+		<td>getFullYear()</td>
+		<td>Devuelve el año en 4 dígitos (yyyy)</td>		
+	</tr>
+	<tr>
+		<td>getHours()</td>
+		<td>Devuelve las horas (0-23)</td>		
+	</tr>	
+	<tr>
+		<td>getMilliseconds()</td>
+		<td>Devuelve los milisegundos (mmm)</td>		
+	</tr>
+	<tr>
+		<td>getMinutes()</td>
+		<td>Devuelve los minutos (0-59) el día</td>		
+	</tr>
+	<tr>
+		<td>getMonth()</td>
+		<td>Devuelve el mes (0-11)</td>		
+	</tr>
+	<tr>
+		<td>getSeconds()</td>
+		<td>Devuelve los segundos (0-59)</td>		
+	</tr>
+	<tr>
+		<td>getTime()</td>
+		<td>Devuelve los milisegundos desde 01/01/1970</td>		
+	</tr>	
+</table>
+
+<br><br>
+
+	<script>
+
+var tiempo;
+var mes = new Array();
+	mes[0] = 'Enero';
+	mes[1] = 'Febrero';
+	mes[2] = 'Marzo';
+	mes[3] = 'Abril';
+	mes[4] = 'Mayo';
+	mes[5] = 'Junio';
+	mes[6] = 'Julio';
+	mes[7] = 'Agosto';
+	mes[8] = 'Septiembre';
+	mes[9] = 'Octubre';
+	mes[10] = 'Noviembre';
+	mes[11] = 'Diciembre';
+
+function timerHoraActual(quehacer)
+{
+	if (quehacer == 1) // Start
+		{
+			tiempo = setInterval(function() { 			
+				var miFecha = new Date(); 
+				document.getElementById("texto").innerHTML = "Hoy es el día " + miFecha.getDate() + " de  " + mes[(parseInt(miFecha.getMonth()))] + " del " + miFecha.getFullYear() + "<br><br>";
+				document.getElementById("texto").innerHTML += "Son las " + PADL(miFecha.getHours(),null,null) + ":" + PADL(miFecha.getMinutes(),null,null) + ":" + PADL(miFecha.getSeconds(),null,null) + "<br><br>"; 
+			}, 1000);		
+		}
+//	if (quehacer == 2)
+	else // Stop
+		{
+			clearInterval(tiempo);
+		}
+	
+}
+
+function PADL(palabra, conQueRelleno, cuantosRelleno)
+{
+	if  (conQueRelleno == null)
+	{
+		conQueRelleno = '0';
+	}
+	
+	if  (cuantosRelleno == null)
+	{
+		cuantosRelleno = 2;
+	}
+
+	var cuantosTiene = palabra.toString().length;
+	
+/*	alert(cuantosTiene);
+	alert(typeof cuantosTiene);
+	alert(typeof cuantosRelleno);
+	alert(typeof conQueRelleno);
+*/	
+	if (cuantosTiene < cuantosRelleno)
+	{
+		for (var i = cuantosTiene; i < cuantosRelleno; i++) {
+			//alert(palabra);
+			palabra = conQueRelleno + palabra;
+		};
+	};
+	//alert(palabra);
+	return palabra;
+}
+
+	</script>
+
+<br><br>
+<div class="container">
+  <div class="jumbotron">
+<div id = "miDiv">
+	<span id = "texto"></span>
+	
+	<input class = "btn-primary" type = "button" value ="Ver Fecha y Hora" onclick = "timerHoraActual(1)"></input>
+	<input class = "btn-primary" type = "button" value ="Parar Fecha y Hora" onclick = "timerHoraActual(2)"></input>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Objeto Location</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+Tiene información sobre la página que tenemos cargada en el navegador:
+
+Propiedades: <br><br>
+
+
+<table>
+	<th>
+		Propiedad
+	</th>
+	<th>
+		Descripción
+	</th>
+	<tr>
+		<td>hash</td>
+		<td>Asigna o devuelve la parte de un link (#) de una URL</td>
+	</tr>
+	<tr>
+		<td>host</td>
+		<td>Asigna o devuelve el dominio y el puerto de una URL</td>
+	</tr>
+	<tr>
+		<td>hostname</td>
+		<td>Asigna o devuelve el dominio de una URL</td>
+	</tr>
+	<tr>
+		<td>href</td>
+		<td>Devuelve la URL completa</td>
+	</tr>
+	<tr>
+		<td>origin</td>
+		<td>Devuelve el protocolo, dominio y puerto de una URL</td>
+	</tr>
+	<tr>
+		<td>pathname</td>
+		<td>Asigna o devuelve el path de una URL (El archivo html que se está consultando y su ruta relativa)</td>
+	</tr>
+	<tr>
+		<td>port</td>
+		<td>Asigna o devuelve el puerto de una URL</td>
+	</tr>
+	<tr>
+		<td>protocol</td>
+		<td>Asigna o devuelve el protocolo de una URL</td>
+	</tr>
+	<tr>
+		<td>search</td>
+		<td>Asigna o devuelve el querystring de una URL</td>
+	</tr>
+</table>
+
+<br><br>
+
+
+<table>
+	<th>
+		Métodos
+	</th>
+	<th>
+		Descripción
+	</th>
+	<tr>
+		<td>assign()</td>
+		<td>Lee un nuevo documento</td>
+	</tr>
+	<tr>
+		<td>reload()</td>
+		<td>Vuelve a cargar el documento actual</td>
+	</tr>	
+	<tr>
+		<td>replace()</td>
+		<td>Reemplaza documento actual con uno nuevo </td>
+	</tr>
+</table>
+
+<br><br>
+
+	<script>
+		
+	document.write("Location <b>hash</b>: " + location.hash + "<br>");
+	document.write("Location <b>host</b>: " + location.host + "<br>");
+	document.write("Location <b>hostname</b>: " + location.hostname + "<br>");
+	document.write("Location <b>href</b>: " + location.href + "<br>");
+	document.write("Location <b>origin</b>: " + location.origin + "<br>");
+	document.write("Location <b>pathname</b>: " + location.pathname + "<br>");
+	document.write("Location <b>port</b>: " + location.port + "<br>");
+	document.write("Location <b>protocol</b>: " + location.protocol + "<br>");
+	document.write("Location <b>search</b>: " + location.search + "<br>");
+
+	function recargarPaginaSinCache()
+	{
+		document.location.reload(true);
+	}
+
+	function recargarPagina()
+	{
+		document.location.reload();
+	}
+
+	function cargarOtraPaginaManteniendoHistorico(pagina)
+	{
+		alert(pagina);
+		document.location.href = pagina;
+	}
+
+	function cargarOtraPaginaSinMantenerHistorico(pagina)
+	{
+		alert(pagina);
+		document.location.replace(pagina);
+	}
+
+	function cargarOtraPagina(pagina)
+	{
+		alert(pagina);
+		document.location.assign(pagina);
+	}
+
+
+	</script>
+<br><br>
+	<input type = "button" name = "http://www.conteclare.es" value = "Ir a www.conteclare.es CON histórico" onclick = cargarOtraPaginaManteniendoHistorico(this.name) /><br><br>
+	<input type = "button" name = "http://www.conteclare.es" value = "Ir a www.conteclare.es SIN histórico" onclick = cargarOtraPaginaManteniendoHistorico(this.name) /><br><br>
+	<input type = "button" name = "http://www.conteclare.es" value = "Cargar Otra página" onclick = cargarOtraPagina(this.name) /><br><br>
+	<input type = "button" name = "http://www.conteclare.es" value = "recargarPagina" onclick = recargarPagina(this.name) /><br><br>	
+	<input type = "button" name = "http://www.conteclare.es" value = "recargarPaginaSinCache" onclick = recargarPaginaSinCache(this.name) /><br><br>	
+</body>
+</html>

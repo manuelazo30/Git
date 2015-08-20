@@ -1,5 +1,0 @@
-Application has thrown an uncaught exception and is terminated:
-ReferenceError: err is not defined
-    at I:\Git\Node.js\practica8\server.js:21:21
-    at fs.js:305:16
-    at FSReqWrap.oncomplete (fs.js:95:15)

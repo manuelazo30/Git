@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Object (Fucniones Anónimas - Constructores)</title>	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+
+
+<p class="jumbotron h1 text-center ">
+
+	<script>
+		
+		function miTipoObjeto()
+		{
+			this.info = "Soy un objeto y esta es la propiedad info llamada desde una especie de clase"
+			this.mostrarInformacion = function () { alert (this.info); }
+			this.setInformacion = function (laInformacion) { this.info = laInformacion ; }
+		}
+
+		var minuevoObjeto1 = new miTipoObjeto();
+
+		function escribemeUnTexto()
+		{
+			return prompt("Escribeme algo", "");
+		}
+
+	</script>
+
+	<button type="button" class="btn btn-info" onclick="minuevoObjeto1.mostrarInformacion()">¡¡¡ minuevoObjeto1.mostrarInformacion() !!!</button>
+	<button type="button" class="btn btn-info" onclick="minuevoObjeto1.setInformacion(escribemeUnTexto())">¡¡¡ minuevoObjeto1.setInformacion(escribemeUnTexto()) !!!</button>
+
+</p>
+
+</div>
+</body>
+</html>

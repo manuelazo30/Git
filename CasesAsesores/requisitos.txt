@@ -1,0 +1,78 @@
+Alta de Empresas:
+
+	- Alta de Empresa
+	- Alta de Empleados
+	- Subir Documentación
+	- Descargar Documentación
+
+Alta de Empleado:
+
+	- Alta de Empleados
+	- Subir Documentación
+	- Descargar Documentación
+
+INFORMACIÓN GENERAL:
+
+	- Nombre Completo
+	- CIF
+	- Cuentas de SS
+	- Domicilio Social
+	- Domicilio Fiscal
+	- Domicilio de Actividad
+	- CNAE
+	- Email de contacto
+	- Teléfono de contacto
+	- Epígra fe de Actividad
+	- Mutua AT
+	- 2 Campos autocalculados o sólo rellenables por el Admin
+
+PORTAL DE EMPRESA:
+
+	- Subir Documentación
+	- Descargar Documentación
+	- Categorías (Carpetas) :
+
+		* Laboral
+
+			# Altas
+			# Bajas
+			# Nóminas
+			# Seguros Sociales
+			# Certificados
+			# Otra Documentación
+
+		* Fiscal
+
+			# General
+			# Impuestos (Mensual, Trimestral, Anual)
+
+		* Contable
+
+			# Campo comentarios con getdate sobre cada factura
+			# Una carpeta por cada año
+
+		* PRL
+
+		* Formación (Hablar con Nacho porque una Excel es un poco cutre)
+
+		* LOPD
+
+		* Eventos
+
+			# Enviar correo electrónico el día antes a los interesados
+
+PORTAL DEL EMPLEADO:
+
+	- Foto
+	- Nombre
+	- Apellido1
+	- Apellido2
+	- Email
+	- Teléfono
+	- Categorías (carpetas) :
+
+		* Laboral (Descarga de Nóminas)
+		* PRL 
+		* Formación (Descarga de títulos u otra documentación)
+		* Eventos (Sólo vería algunos de su empresa)
+	

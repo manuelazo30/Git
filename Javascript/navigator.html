@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Objeto Navigator</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+Tiene información sobre la página que tenemos cargada en el navegador:
+
+Propiedades: <br><br>
+
+
+<table>
+	<th>
+		Propiedad
+	</th>
+	<th>
+		Descripción
+	</th>
+	<tr>
+		<td>appCodeName</td>
+		<td>Devuelve el nombre del código del Navegador</td>
+	</tr>
+	<tr>
+		<td>appName</td>
+		<td>Devuelve el nombre del Navegador</td>
+	</tr>
+	<tr>
+		<td>appVersion</td>
+		<td>Devuelve la versión del Navegador</td>
+	</tr>
+	<tr>
+		<td>cookieEnabled</td>
+		<td>Devuelve si el navegador tiene las cookies habilitadas o no</td>
+	</tr>
+	<tr>
+		<td>geolocation</td>
+		<td>Devuelve un objeto Geolocation que puede ser usado para determinar la posición del usuario</td>
+	</tr>
+	<tr>
+		<td>language</td>
+		<td>Devuelve el lenguaje del navegador</td>
+	</tr>
+	<tr>
+		<td>onLine</td>
+		<td>Devuelve si el navegador tiene conexióna a internet</td>
+	</tr>
+	<tr>
+		<td>platform</td>
+		<td>Devuelve la plataforma del navegador</td>
+	</tr>
+	<tr>
+		<td>product</td>
+		<td>Devuelve el engine del navegador</td>
+	</tr>
+	<tr>
+		<td>userAgent</td>
+		<td>Devuelve la cabecera del agente enviado por el navegador</td>
+	</tr>	
+</table>
+
+<br><br>
+
+
+<table>
+	<th>
+		Métodos
+	</th>
+	<th>
+		Descripción
+	</th>
+	<tr>
+		<td>javaEnabled()</td>
+		<td>Devuelve si el navegador tiene Javascript habilitado</td>
+	</tr>
+</table>
+
+<br><br>
+
+	<script>
+		
+	document.write("Navigator <b>appCodeName</b>: " + navigator.appCodeName + "<br>");
+	document.write("Navigator <b>appName</b>: " + navigator.appName + "<br>");
+	document.write("Navigator <b>appVersion</b>: " + navigator.appVersion + "<br>");
+	document.write("Navigator <b>cookieEnabled</b>: " + navigator.cookieEnabled + "<br>");
+	document.write("Navigator <b>cpuClass</b>: " + navigator.geolocation.cpuClass + "<br>");
+	document.write("Navigator <b>Nº Plugin</b>: " + navigator.plugins.length + "<br>");
+	document.write("Navigator <b>language</b>: " + navigator.language + "<br>");
+	document.write("Navigator <b>onLine</b>: " + navigator.onLine + "<br>");
+	document.write("Navigator <b>platform</b>: " + navigator.platform + "<br>");
+	document.write("Navigator <b>product</b>: " + navigator.product + "<br>");
+	document.write("Navigator <b>userAgent</b>: " + navigator.userAgent + "<br>");
+	document.write("Navigator <b>javaEnabled</b>: " + navigator.javaEnabled() + "<br>");
+
+	var latitud, longitud;
+ 
+function geolocalizar() {
+	navigator.geolocation.getCurrentPosition(mostrarLoc,mostrarError);   
+}
+ 
+function mostrarError(error){                
+	console.log(error);
+}
+ 
+function mostrarLoc(geo){                   
+	latitud=geo.coords.latitude;
+	longitud=geo.coords.longitude;
+ 
+	document.write(latitud);
+	document.write(" ");
+	document.write(longitud);
+}
+ 
+geolocalizar();
+
+	</script>
+
+<br><br>
+
+</body>
+</html>

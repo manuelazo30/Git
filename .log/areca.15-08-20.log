@@ -1,0 +1,785 @@
+
+15-08-20 11:33 - INFO - System informations :
+15-08-20 11:33 - INFO - ----------------------------------------
+15-08-20 11:33 - INFO - Version : 7.4.9
+15-08-20 11:33 - INFO - Build ID : 7856197430637268730
+15-08-20 11:33 - INFO - Available Memory : 455 MB
+15-08-20 11:33 - INFO - OS Name : Windows 8.1 - 6.3
+15-08-20 11:33 - INFO - Java Virtual Machine : Java(TM) SE Runtime Environment - 1.8.0_31-b13 - Oracle Corporation
+15-08-20 11:33 - INFO - File encoding : windows-1252
+15-08-20 11:33 - INFO - Language : es
+15-08-20 11:33 - INFO - Framework properties : {filetool.delay=200, ftp.debug=false, repository.access.ftp.cache=true, memory.safety.margin=0.3, gzip.enabled=true, sftp.preferred.auth.override=, threadlocal.log.level=2, encryption.keygen.iterations=96731, filetool.buffer.size=200000, zip.crc.enable=true, fs.max.filepath.check.force=-1, delta.debug=false, fs.max.filepath=256, zip.mv.digits=2, fs.use.buffer=true, memory.base.kb=20480, cache.preload=false, fs.max.cached.mountpoints=2000, repository.check.consistency=true, ftp.max.proxies=4, delta.quickhash.modulus=68228191, encryption.keygen.algorithm=PBKDF2WithHmacSHA1, posix.def.metadata.accessor.command=ls, memory.by.entry.kb=2, repository.access.hd.cache.depth=2, ftp.use.cache=true, ftp.noop.delay=30000, file.hash.algorithm=SHA, zip.buffer.size=2048, hash.cache.size=200, log.default.history=10, ftp.cache.size=100, os.browsers=firefox, opera, konqueror, epiphany, mozilla, netscape, file.streams.debug=true, sftp.timeout=5000, delta.quickhash.multiplier=98813, repository.access.hd.cache=false, threadlocal.log.max.messages=200, viewer.handler.impl=com.myJava.system.viewer.DesktopViewerHandler, fs.tmp.directory=, log.level=5, delta.hashmap.size=10007, smtp.debug=false, hash.use.cache=true, encryption.keygen.salt.encoding=UTF-8, posix.def.metadata.accessor.args=-ald1, encryption.keygen.salt=ù%${{²]}}[|`è€$£^¤*!§:/..;;,,_?"\°à@@%µ, fs.cache.debug=false, backup.debug=false, repository.access.ftp.cache.depth=2, filesystem.accessor.impl=com.myJava.file.metadata.windows.WindowsMetaDataAccessor, sse.protocols=SSL, TLS, TLS-P, TLS-C, repository.access.debug=false, fs.buffer.size=10240}
+15-08-20 11:33 - INFO - Available translations : br, cn, cs, da, de, en, es, fr, hu, it, ja, nl, pt, ru, sv, tw
+15-08-20 11:33 - INFO - File metadata accessor : com.myJava.file.metadata.windows.WindowsMetaDataAccessor
+15-08-20 11:33 - INFO - ----------------------------------------
+15-08-20 11:33 - INFO - User preferences :
+15-08-20 11:33 - INFO - ----------------------------------------
+15-08-20 11:33 - INFO - [ws.history.0] = [C:/Users/Manuel/.areca/workspace]
+15-08-20 11:33 - INFO - [dnt.msg.day] = [5617]
+15-08-20 11:33 - INFO - [startup.display.logical.view] = [false]
+15-08-20 11:33 - INFO - [lang] = [es]
+15-08-20 11:33 - INFO - [archive.displayreport] = [false]
+15-08-20 11:33 - INFO - [launch.count] = [1]
+15-08-20 11:33 - INFO - [startup.mode] = [last]
+15-08-20 11:33 - INFO - [check.new.versions] = [true]
+15-08-20 11:33 - INFO - [info.channel.synthetic] = [true]
+15-08-20 11:33 - INFO - [editor.text] = []
+15-08-20 11:33 - INFO - [startup.workspace] = []
+15-08-20 11:33 - INFO - [lastworkspace] = [C:/Users/Manuel/.areca/workspace]
+15-08-20 11:33 - INFO - [display.ws.address] = [true]
+15-08-20 11:33 - INFO - [date.format] = []
+15-08-20 11:33 - INFO - [archive.storage] = []
+15-08-20 11:33 - INFO - [display.toolbar] = [true]
+15-08-20 11:33 - INFO - ----------------------------------------
+15-08-20 11:33 - INFO - Reading content of I:/Git
+15-08-20 11:33 - INFO - Reading content of I:/Git/CasesAsesores
+15-08-20 11:33 - INFO - Reading content of I:/Git/Javascript
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica1
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica2
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica3
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica4
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica5
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/iisnode
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/example
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/example/views
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/lib/modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/lib/views
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/media
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/lib/middleware
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/lib/middleware/session
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/lib/public
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/lib/public/icons
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/bytes
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/cookie
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/cookie/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/crc
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/crc/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/crc/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/benchmark
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/example
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/node-gently
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/node-gently/example
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/node-gently/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/node-gently/lib/gently
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/node-gently/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/node-gently/test/simple
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/test/fixture
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/test/fixture/file
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/test/fixture/http
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/test/fixture/http/special-chars-in-filename
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/test/fixture/js
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/test/integration
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/test/legacy
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/test/legacy/integration
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/test/legacy/simple
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/test/legacy/system
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/test/unit
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/formidable/tool
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/fresh
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/qs
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/qs/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/qs/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/send
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/send/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/send/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/send/node_modules/mime
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/send/node_modules/mime/types
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/connect/node_modules/send/node_modules/range-parser
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/debug
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/debug/example
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/debug/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/bin
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/lib/router
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/buffer-crc32
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/buffer-crc32/tests
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/commander
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/commander/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/lib/middleware
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/lib/middleware/session
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/lib/public
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/lib/public/icons
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/lib-cov
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/lib-cov/middleware
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/lib-cov/middleware/session
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/lib-cov/public
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/lib-cov/public/icons
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/bytes
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/benchmark
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/example
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/node-gently
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/example
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/lib/gently
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/test/simple
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/file
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/http
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/http/special-chars-in-filename
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/test/integration
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/integration
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/simple
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/system
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/test/unit
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/formidable/tool
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/pause
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/qs
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/qs/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/qs/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/connect/node_modules/qs/test/browser
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/cookie
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/cookie/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/cookie-signature
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/fresh
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/methods
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/mkdirp
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/mkdirp/examples
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/mkdirp/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/range-parser
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/send
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/send/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/send/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/send/node_modules/mime
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/express/node_modules/send/node_modules/mime/types
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/node-swt
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/node-swt/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/node-wsfederation
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/node-wsfederation/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/oauth
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/oauth/examples
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/oauth/examples/express-gdata
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/oauth/examples/express-gdata/views
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/oauth/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/oauth/tests
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/openid
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/openid/expressjs_sample
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/openid/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/openid/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/request
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/request/tests
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/request/tests/ssl
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/request/tests/ssl/ca
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/request/vendor
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/request/vendor/cookie
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax/examples
+15-08-20 11:33 - ERROR - Invalid configuration file: I:\Git\Node.js\practica6\SitioWebMatrix\node_modules\everyauth\node_modules\xml2js\node_modules\sax\examples\big-not-pretty.xml - org.xml.sax.SAXParseException; systemId: file:/I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax/examples/big-not-pretty.xml; lineNumber: 7; columnNumber: 19; El tipo de elemento "slurm" debe finalizar por la etiqueta final coincidente "</slurm>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.application.areca.adapters.read.DeprecatedTargetGroupXMLReader.<init>(DeprecatedTargetGroupXMLReader.java:68)
+	at com.application.areca.adapters.ConfigurationHandler.isDeprecatedGroupConfiguration(ConfigurationHandler.java:175)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:192)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readTargetGroup(ConfigurationHandler.java:75)
+	at com.application.areca.Workspace.loadDirectory(Workspace.java:148)
+	at com.application.areca.Workspace.open(Workspace.java:55)
+	at com.application.areca.launcher.gui.Application.openWorkspaceImpl(Application.java:830)
+	at com.application.areca.launcher.gui.Application.openWorkspace(Application.java:822)
+	at com.application.areca.launcher.gui.Application.processCommand(Application.java:444)
+	at com.application.areca.launcher.gui.menus.AppAction.widgetSelected(AppAction.java:210)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at com.application.areca.launcher.gui.MainWindow.show(MainWindow.java:303)
+	at com.application.areca.launcher.gui.Application.show(Application.java:203)
+	at com.application.areca.launcher.gui.Launcher.launchImpl(Launcher.java:143)
+	at com.myJava.system.AbstractLauncher.launch(AbstractLauncher.java:47)
+	at com.application.areca.launcher.gui.Launcher.main(Launcher.java:48)
+
+15-08-20 11:33 - ERROR - com.myJava.util.xml.AdapterException: org.xml.sax.SAXParseException; systemId: file:/I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax/examples/big-not-pretty.xml; lineNumber: 7; columnNumber: 19; El tipo de elemento "slurm" debe finalizar por la etiqueta final coincidente "</slurm>".
+	at com.application.areca.adapters.read.DeprecatedTargetGroupXMLReader.<init>(DeprecatedTargetGroupXMLReader.java:71)
+	at com.application.areca.adapters.ConfigurationHandler.isDeprecatedGroupConfiguration(ConfigurationHandler.java:175)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:192)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readTargetGroup(ConfigurationHandler.java:75)
+	at com.application.areca.Workspace.loadDirectory(Workspace.java:148)
+	at com.application.areca.Workspace.open(Workspace.java:55)
+	at com.application.areca.launcher.gui.Application.openWorkspaceImpl(Application.java:830)
+	at com.application.areca.launcher.gui.Application.openWorkspace(Application.java:822)
+	at com.application.areca.launcher.gui.Application.processCommand(Application.java:444)
+	at com.application.areca.launcher.gui.menus.AppAction.widgetSelected(AppAction.java:210)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at com.application.areca.launcher.gui.MainWindow.show(MainWindow.java:303)
+	at com.application.areca.launcher.gui.Application.show(Application.java:203)
+	at com.application.areca.launcher.gui.Launcher.launchImpl(Launcher.java:143)
+	at com.myJava.system.AbstractLauncher.launch(AbstractLauncher.java:47)
+	at com.application.areca.launcher.gui.Launcher.main(Launcher.java:48)
+Caused by: org.xml.sax.SAXParseException; systemId: file:/I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax/examples/big-not-pretty.xml; lineNumber: 7; columnNumber: 19; El tipo de elemento "slurm" debe finalizar por la etiqueta final coincidente "</slurm>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.application.areca.adapters.read.DeprecatedTargetGroupXMLReader.<init>(DeprecatedTargetGroupXMLReader.java:68)
+	... 32 more
+
+15-08-20 11:33 - ERROR - Invalid configuration file: I:\Git\Node.js\practica6\SitioWebMatrix\node_modules\everyauth\node_modules\xml2js\node_modules\sax\examples\not-pretty.xml - org.xml.sax.SAXParseException; systemId: file:/I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax/examples/not-pretty.xml; lineNumber: 6; columnNumber: 19; El tipo de elemento "slurm" debe finalizar por la etiqueta final coincidente "</slurm>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.application.areca.adapters.read.DeprecatedTargetGroupXMLReader.<init>(DeprecatedTargetGroupXMLReader.java:68)
+	at com.application.areca.adapters.ConfigurationHandler.isDeprecatedGroupConfiguration(ConfigurationHandler.java:175)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:192)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readTargetGroup(ConfigurationHandler.java:75)
+	at com.application.areca.Workspace.loadDirectory(Workspace.java:148)
+	at com.application.areca.Workspace.open(Workspace.java:55)
+	at com.application.areca.launcher.gui.Application.openWorkspaceImpl(Application.java:830)
+	at com.application.areca.launcher.gui.Application.openWorkspace(Application.java:822)
+	at com.application.areca.launcher.gui.Application.processCommand(Application.java:444)
+	at com.application.areca.launcher.gui.menus.AppAction.widgetSelected(AppAction.java:210)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at com.application.areca.launcher.gui.MainWindow.show(MainWindow.java:303)
+	at com.application.areca.launcher.gui.Application.show(Application.java:203)
+	at com.application.areca.launcher.gui.Launcher.launchImpl(Launcher.java:143)
+	at com.myJava.system.AbstractLauncher.launch(AbstractLauncher.java:47)
+	at com.application.areca.launcher.gui.Launcher.main(Launcher.java:48)
+
+15-08-20 11:33 - ERROR - com.myJava.util.xml.AdapterException: org.xml.sax.SAXParseException; systemId: file:/I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax/examples/not-pretty.xml; lineNumber: 6; columnNumber: 19; El tipo de elemento "slurm" debe finalizar por la etiqueta final coincidente "</slurm>".
+	at com.application.areca.adapters.read.DeprecatedTargetGroupXMLReader.<init>(DeprecatedTargetGroupXMLReader.java:71)
+	at com.application.areca.adapters.ConfigurationHandler.isDeprecatedGroupConfiguration(ConfigurationHandler.java:175)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:192)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readTargetGroup(ConfigurationHandler.java:75)
+	at com.application.areca.Workspace.loadDirectory(Workspace.java:148)
+	at com.application.areca.Workspace.open(Workspace.java:55)
+	at com.application.areca.launcher.gui.Application.openWorkspaceImpl(Application.java:830)
+	at com.application.areca.launcher.gui.Application.openWorkspace(Application.java:822)
+	at com.application.areca.launcher.gui.Application.processCommand(Application.java:444)
+	at com.application.areca.launcher.gui.menus.AppAction.widgetSelected(AppAction.java:210)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at com.application.areca.launcher.gui.MainWindow.show(MainWindow.java:303)
+	at com.application.areca.launcher.gui.Application.show(Application.java:203)
+	at com.application.areca.launcher.gui.Launcher.launchImpl(Launcher.java:143)
+	at com.myJava.system.AbstractLauncher.launch(AbstractLauncher.java:47)
+	at com.application.areca.launcher.gui.Launcher.main(Launcher.java:48)
+Caused by: org.xml.sax.SAXParseException; systemId: file:/I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax/examples/not-pretty.xml; lineNumber: 6; columnNumber: 19; El tipo de elemento "slurm" debe finalizar por la etiqueta final coincidente "</slurm>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.application.areca.adapters.read.DeprecatedTargetGroupXMLReader.<init>(DeprecatedTargetGroupXMLReader.java:68)
+	... 32 more
+
+15-08-20 11:33 - ERROR - Invalid configuration file: I:\Git\Node.js\practica6\SitioWebMatrix\node_modules\everyauth\node_modules\xml2js\node_modules\sax\examples\test.xml - org.xml.sax.SAXParseException; systemId: file:/I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax/examples/test.xml; lineNumber: 10; columnNumber: 30; La cadena "--" no está permitida en los comentarios.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.application.areca.adapters.read.DeprecatedTargetGroupXMLReader.<init>(DeprecatedTargetGroupXMLReader.java:68)
+	at com.application.areca.adapters.ConfigurationHandler.isDeprecatedGroupConfiguration(ConfigurationHandler.java:175)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:192)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readTargetGroup(ConfigurationHandler.java:75)
+	at com.application.areca.Workspace.loadDirectory(Workspace.java:148)
+	at com.application.areca.Workspace.open(Workspace.java:55)
+	at com.application.areca.launcher.gui.Application.openWorkspaceImpl(Application.java:830)
+	at com.application.areca.launcher.gui.Application.openWorkspace(Application.java:822)
+	at com.application.areca.launcher.gui.Application.processCommand(Application.java:444)
+	at com.application.areca.launcher.gui.menus.AppAction.widgetSelected(AppAction.java:210)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at com.application.areca.launcher.gui.MainWindow.show(MainWindow.java:303)
+	at com.application.areca.launcher.gui.Application.show(Application.java:203)
+	at com.application.areca.launcher.gui.Launcher.launchImpl(Launcher.java:143)
+	at com.myJava.system.AbstractLauncher.launch(AbstractLauncher.java:47)
+	at com.application.areca.launcher.gui.Launcher.main(Launcher.java:48)
+
+15-08-20 11:33 - ERROR - com.myJava.util.xml.AdapterException: org.xml.sax.SAXParseException; systemId: file:/I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax/examples/test.xml; lineNumber: 10; columnNumber: 30; La cadena "--" no está permitida en los comentarios.
+	at com.application.areca.adapters.read.DeprecatedTargetGroupXMLReader.<init>(DeprecatedTargetGroupXMLReader.java:71)
+	at com.application.areca.adapters.ConfigurationHandler.isDeprecatedGroupConfiguration(ConfigurationHandler.java:175)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:192)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readObject(ConfigurationHandler.java:220)
+	at com.application.areca.adapters.ConfigurationHandler.readTargetGroup(ConfigurationHandler.java:75)
+	at com.application.areca.Workspace.loadDirectory(Workspace.java:148)
+	at com.application.areca.Workspace.open(Workspace.java:55)
+	at com.application.areca.launcher.gui.Application.openWorkspaceImpl(Application.java:830)
+	at com.application.areca.launcher.gui.Application.openWorkspace(Application.java:822)
+	at com.application.areca.launcher.gui.Application.processCommand(Application.java:444)
+	at com.application.areca.launcher.gui.menus.AppAction.widgetSelected(AppAction.java:210)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at com.application.areca.launcher.gui.MainWindow.show(MainWindow.java:303)
+	at com.application.areca.launcher.gui.Application.show(Application.java:203)
+	at com.application.areca.launcher.gui.Launcher.launchImpl(Launcher.java:143)
+	at com.myJava.system.AbstractLauncher.launch(AbstractLauncher.java:47)
+	at com.application.areca.launcher.gui.Launcher.main(Launcher.java:48)
+Caused by: org.xml.sax.SAXParseException; systemId: file:/I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax/examples/test.xml; lineNumber: 10; columnNumber: 30; La cadena "--" no está permitida en los comentarios.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.application.areca.adapters.read.DeprecatedTargetGroupXMLReader.<init>(DeprecatedTargetGroupXMLReader.java:68)
+	... 32 more
+
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/node_modules/sax/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/src
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/node_modules/xml2js/test/fixtures
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/everyauth/test/util
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/bin
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/lib/router
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/buffer-crc32
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/buffer-crc32/tests
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/commander
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/commander/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/lib/middleware
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/lib/middleware/session
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/lib/public
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/lib/public/icons
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/lib-cov
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/lib-cov/middleware
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/lib-cov/middleware/session
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/lib-cov/public
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/lib-cov/public/icons
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/bytes
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/benchmark
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/example
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/node-gently
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/example
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/lib/gently
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/node-gently/test/simple
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/file
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/http
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/http/special-chars-in-filename
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/js
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/test/integration
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/integration
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/simple
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/test/legacy/system
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/test/unit
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/formidable/tool
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/pause
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/qs
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/qs/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/qs/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/connect/node_modules/qs/test/browser
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/cookie
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/cookie/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/cookie-signature
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/debug
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/debug/example
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/debug/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/fresh
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/methods
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/mkdirp
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/mkdirp/examples
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/mkdirp/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/range-parser
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/send
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/send/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/send/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/send/node_modules/mime
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/express/node_modules/send/node_modules/mime/types
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/bin
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/lib/nodes
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/node_modules/coffee-script
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/node_modules/coffee-script/bin
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/node_modules/coffee-script/extras
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/node_modules/coffee-script/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/node_modules/coffee-script/lib/coffee-script
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/node_modules/commander
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/node_modules/commander/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/node_modules/mkdirp
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/node_modules/mkdirp/examples
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/node_modules/mkdirp/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/testing
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/jade/testing/nested
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/benchmark
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/bin
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/build
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/lib/less
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/lib/less/tree
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/node_modules/ycssmin
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/node_modules/ycssmin/bin
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/node_modules/ycssmin/tests
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/node_modules/ycssmin/tests/files
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/node_modules/ycssmin/tests/files/special
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/browser
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/browser/css
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/browser/css/relative-urls
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/browser/css/rootpath
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/browser/css/rootpath-relative
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/browser/less
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/browser/less/imports
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/browser/less/relative-urls
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/browser/less/rootpath
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/browser/less/rootpath-relative
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/css
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/css/debug
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/css/static-urls
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/less
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/less/debug
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/less/debug/import
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/less/errors
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/less/errors/imports
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/less/errors/imports/subfolder
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/less/import
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/less/import/deeper
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/less/import/imports
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/less/test/less/static-urls
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/mkdirp
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/mkdirp/examples
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/node_modules/mkdirp/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/less-middleware/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/docs
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/docs/nconf
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/docs/nconf/stores
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/lib/nconf
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/lib/nconf/stores
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/async
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/async/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/ini
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/ini/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/ini/test/fixtures
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/optimist
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/optimist/example
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/optimist/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/optimist/node_modules/wordwrap
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/optimist/node_modules/wordwrap/example
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/optimist/node_modules/wordwrap/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/optimist/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/optimist/test/_
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/pkginfo
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/pkginfo/docs
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/pkginfo/examples
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/pkginfo/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/node_modules/pkginfo/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/test/fixtures
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/test/fixtures/hierarchy
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/test/fixtures/merge
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/test/fixtures/scripts
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/test/mocks
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/nconf/test/stores
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/recaptcha
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/recaptcha/examples
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/recaptcha/examples/views
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/recaptcha/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/benchmarks
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/lib/stores
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/lib/transports
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/lib/transports/websocket
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/base64id
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/base64id/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/policyfile
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/policyfile/doc
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/policyfile/examples
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/policyfile/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/policyfile/tests
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/policyfile/tests/ssl
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/redis
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/redis/benches
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/redis/benches/stress
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/redis/benches/stress/pubsub
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/redis/benches/stress/rpushblpop
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/redis/benches/stress/speed
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/redis/examples
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/redis/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/redis/lib/parser
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/bin
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/dist
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/transports
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/adobe
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/adobe/net
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/adobe/net/proxies
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/gsolo
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/gsolo/encryption
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/rsa
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/bin
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/expected
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/tmp
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/bench
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/bin
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/doc
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/fileapi
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/fileapi/public
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/serverstats
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/serverstats/public
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/serverstats-express_3
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/serverstats-express_3/public
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/commander
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/commander/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/options
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/options/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/options/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/options/test/fixtures
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/tinycolor
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/src
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/test/fixtures
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/example
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/lib
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/tests
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/test
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/node_modules/socket.io/node_modules/socket.io-client/test/node
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/public
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/public/images
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/public/javascripts
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/public/jquery-mobile
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/public/jquery-mobile/images
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/public/stylesheets
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/routes
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/NODE-INSPECTOR
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/NODE-INSPECTOR/BIN
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/NODE-INSPECTOR/FRONT-END
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/NODE-INSPECTOR/FRONT-END/IMAGES
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/NODE-INSPECTOR/FRONT-END/NODE
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/NODE-INSPECTOR/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/PAPERBOY
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/PAPERBOY/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO/LIB/STORES
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO/LIB/TRANSPORTS
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO/LIB/TRANSPORTS/WEBSOCKET
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT/BIN
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT/DIST
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT/LIB/TRANSPORTS
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/UGLIFY-JS
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/UGLIFY-JS/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/server.js.debug/NODE_MODULES/XMLHTTPREQUEST
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/views
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/views/account
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica6/SitioWebMatrix/views/errors
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/iisnode
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/public
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/NODE-INSPECTOR
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/NODE-INSPECTOR/BIN
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/NODE-INSPECTOR/FRONT-END
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/NODE-INSPECTOR/FRONT-END/IMAGES
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/NODE-INSPECTOR/FRONT-END/NODE
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/NODE-INSPECTOR/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/PAPERBOY
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/PAPERBOY/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO/LIB/STORES
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO/LIB/TRANSPORTS
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO/LIB/TRANSPORTS/WEBSOCKET
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT/BIN
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT/DIST
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT/LIB/TRANSPORTS
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/UGLIFY-JS
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/UGLIFY-JS/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica7/SegundoSitioWebMatrix/server.js.debug/NODE_MODULES/XMLHTTPREQUEST
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica8
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica8/iisnode
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica8/public
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/iisnode
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/public
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/NODE-INSPECTOR
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/NODE-INSPECTOR/BIN
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/NODE-INSPECTOR/FRONT-END
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/NODE-INSPECTOR/FRONT-END/IMAGES
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/NODE-INSPECTOR/FRONT-END/NODE
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/NODE-INSPECTOR/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/PAPERBOY
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/PAPERBOY/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/SOCKET.IO
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/SOCKET.IO/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/SOCKET.IO/LIB/STORES
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/SOCKET.IO/LIB/TRANSPORTS
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/SOCKET.IO/LIB/TRANSPORTS/WEBSOCKET
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT/BIN
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT/DIST
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/SOCKET.IO-CLIENT/LIB/TRANSPORTS
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/UGLIFY-JS
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/UGLIFY-JS/LIB
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/practica9/server.js.debug/NODE_MODULES/XMLHTTPREQUEST
+15-08-20 11:33 - INFO - Reading content of I:/Git/Node.js/webMatrix
+15-08-20 11:33 - INFO - Path : [I:\Git] - 3 items loaded.

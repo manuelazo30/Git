@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Object (Fucniones Anónimas - Constructores)</title>	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+
+
+<p class="jumbotron h1 text-center ">
+
+	<script>
+		
+
+		document.writeln("Para crear un nuevo Object (Objeto) se emplea new <br/><br/>");
+		document.writeln("Un objeto encapsula propiedades y métodos<br/><br/>");
+
+		minuevoObjeto = new Object();
+		minuevoObjeto.info = 'Soy un objeto y esta es la propiedad info llamada desde una función anónima!';
+
+		document.writeln("Para crear un método, primero hay que crear una función<br/><br/>");
+
+		/*function miFuncion() {
+			alert (this.info); // This busca en el bojeto padre window que debería tener una propiedad info, aunque al ser llamado desde un objeto, el objeto padre es el objeto desde el que se llama
+		}
+		
+		
+		// minuevoObjeto.mostrarInformacion = miFuncion;
+		*/
+
+		minuevoObjeto.mostrarInformacion = function () {
+			alert (this.info); // This busca en el bojeto padre window que debería tener una propiedad info, aunque al ser llamado desde un objeto, el objeto padre es el objeto desde el que se llama
+		}
+
+
+
+	</script>
+
+	<button type="button" class="btn btn-info" onclick="miFuncion()">¡¡¡ MAL !!!</button>
+	<input type="button" class="btn btn-info" value="¡¡¡ MAL !!!" onclick="mostrarInformacion()">
+	<input type="button" class="btn btn-info" value="¡¡¡ BIEN !!!" onclick="minuevoObjeto.mostrarInformacion()">
+	
+
+</p>
+
+</div>
+</body>
+</html>

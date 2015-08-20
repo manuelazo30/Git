@@ -1,0 +1,4 @@
+Application has thrown an uncaught exception and is terminated:
+TypeError: Cannot read property 'timeStamp' of undefined
+    at I:\Git\Node.js\practica9\server.js:23:33
+    at FSReqWrap.oncomplete (fs.js:95:15)

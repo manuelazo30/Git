@@ -1,0 +1,6 @@
+Application has thrown an uncaught exception and is terminated:
+TypeError: first argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:512:11)
+    at I:\Git\Node.js\practica9\server.js:64:26
+    at I:\Git\Node.js\practica9\server.js:38:9
+    at FSReqWrap.oncomplete (fs.js:95:15)

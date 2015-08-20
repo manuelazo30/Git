@@ -1,0 +1,14 @@
+th{
+	background-color: orange;
+	font-size: 20px;
+}
+
+tr:nth-child(odd){
+    background: #000000;
+    color: #FFFFFF;
+}
+ 
+tr:nth-child(even){
+    background: #FFFFFF;
+    color: #000000;
+    

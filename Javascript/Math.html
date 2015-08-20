@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Objeto Math</title>	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+</head>
+<body onload="calculaNumeroAleatorio()">
+<div class="container">
+
+	<p class="jumbotron h1 text-center "></p>
+
+	<button onclick="calculaNumeroAleatorio()">Calcular número aleatorio</button>
+
+	<script>
+		
+		function calculaNumeroAleatorio()
+		{
+			document.getElementsByClassName("jumbotron")[0].innerHTML = ''
+			
+			var x = prompt("A cuántos números calcular el cálculo","");
+			var y = [];
+			
+			for (var i = 0; i < x; i++)
+			{
+				console.log(y);
+				y[i] = prompt("Dame el número " + (parseInt(i) + 1),"");
+			};
+
+			document.getElementsByClassName("jumbotron")[0].innerHTML += 'El número aleatorio calculado es: ' + Math.random() + '<br>';
+			document.getElementsByClassName("jumbotron")[0].innerHTML += 'El número mínimo de entre los posibles es: ' + Math.min.apply(null, y) + '</br>';
+			document.getElementsByClassName("jumbotron")[0].innerHTML += 'El número máximo de entre los posibles es: ' + Math.max.apply(null, y) + '<br>';
+			document.getElementsByClassName("jumbotron")[0].innerHTML += 'El número máximo de entre los posibles <strong>redondeado </strong> es: ' + Math.round(Math.max.apply(null, y)) + '<br>';
+			document.getElementsByClassName("jumbotron")[0].innerHTML += 'El número máximo de entre los posibles <strong>redondeado	 </strong> es: ' + Math.ceil(Math.max.apply(null, y)) + '<br>';
+			document.getElementsByClassName("jumbotron")[0].innerHTML += 'El número máximo de entre los posibles <strong>redondeado </strong> es: ' + Math.floor(Math.max.apply(null, y)) + '<br>';
+			document.getElementsByClassName("jumbotron")[0].innerHTML += 'La potencia de los dos primeros números es: ' + Math.pow(y[0],y[1]) + '<br>';
+			//document.getElementsByClassName("jumbotron")[0].innerHTML += '';
+		}
+
+	</script>
+
+</div>
+</body>
+</html>
