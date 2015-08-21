@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>JSON</title>	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+
+
+<div class="jumbotron h1 text-center">hola
+<div>
+
+	<script>
+		
+		// Es otra forma de instanciar objetos e intercambiar Datos (Normalmente se conoce por esto último ...)
+		// Un objeto JSON no es más que un objeto normal y corriente de Javascript - y por lo tanto, todas sus ventajas -
+		// La sintaxis JSON se basa en Pares (Nombre: valor). Estos pares se separan entre ellos por comas y todos los pares se encierran entre llaves.
+		// El proceso de trabajo JSON se basa en Serialización (Convertir en un String el objeto Javascript) / Deserialización (Convertir un String en un objeto Javascript)
+
+		var jsonObject = {
+			"parametro1": "valor1",
+			"parametro2": "valor2",
+			"parametro3": "valor3"
+		}
+
+		// La clave está en la función eval() para serializar
+		// La función eval() usa el intérprete Javascript para analizar el contenido JSON y devolver un objeto Javascript. En los navegadores recientes, no es necesario usarla porque ya la tienen de forma nativa
+
+		var usuario = {
+				"nombre": "Manuel Moreno",
+				"pais": "España",
+				"altura": "1.80"
+		}
+
+		var miObjeto = eval(usuario); // Esto ya no es necesario porque los navegadores actualmente ya lo traen de forma nativa. Ver a continuación (Ver parse y stringify)
+		//var miObjeto = JSON.parse(usuario); // Eso dice el tutorial, pero NO FUNCIONA !!!!!
+
+
+	</script>
+
+	<button class = "btn btn-primary" onclick = "document.getElementsByClassName('jumbotron')[0].innerHTML = miObjeto.nombre + '<br/>' + miObjeto.pais">Accede al JSON</button>
+
+</div>	
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>JSON</title>	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+
+
+<div class="jumbotron h1 text-center">
+
+	<script>
+		
+		// Serialización es convertir datos que pueda ser almacenado y pueda ser transmitido por una red y convertido de nuevo en el otro extremo al mismo formato original. El formato elegido para los datos serializados es un STRING. Es decir, los datos serializados los tenemos que poner como un string.
+		// Los navegadores más recientes cuentan ya con soporte para JSON.
+		// El método stringify convierte un objeto Javascript en una cadena de texto (JSON)
+		// El método parse convierte una cadena de texto () objeto Javascript en una cadena de texto
+		// Un objeto JSON no es más que un objeto normal y corriente de Javascript - y por lo tanto, todas sus ventajas -
+		// La sintaxis JSON se basa en Pares (Nombre: valor). Estos pares se separan entre ellos por comas y todos los pares se encierran entre llaves.
+		// El proceso de trabajo JSON se basa en Serialización (Convertir en un String el objeto Javascript) / Deserialización (Convertir un String en un objeto Javascript)
+
+		var Jazzman = new Object();
+		Jazzman.altura = 1.85;
+		Jazzman.edad = 41;
+		Jazzman.colorOjos = "azul";
+		// Aquí tenemos un objeto JavaScript. Con el método stringify convertimos el objeto JavaScript en un objeto JSON (serializamos) que podrá ser almacenado y  transmitido de modo standard
+
+		document.write('Las propiedades del objeto Jazzman en modo JSON son: <h2>' + JSON.stringify(Jazzman) + '</h2>');
+
+	</script>
+
+</div>
+
+
+<div class="jumbotron h1 text-center">
+
+	<script>
+		
+		function JSONParse()
+		{
+			var enString = prompt("Escribe un objeto JSON");
+			var salida = "";
+			miObjeto = JSON.parse(enString);
+			for (i in miObjeto)
+			{
+				salida = salida + '<h2>Propiedad ' + i + ' = ' + miObjeto[i] + '</h2>';
+			}
+
+			document.getElementsByClassName('jumbotron')[1].innerHTML = salida;
+		}
+		
+		// Aquí tenemos un objeto Json. Con el método parsae convertimos el objeto JSON en un objeto Javascript (deserializamos)
+
+	</script>
+
+</div>
+<button class = "btn btn-primary" onclick="JSONParse()">Jsones ...</button>
+</div>
+</body>
+</html>

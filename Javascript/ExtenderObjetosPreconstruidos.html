@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Object (Extender Objetos Preconstruidos - Built-in)</title>	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+
+
+<p class="jumbotron h1 text-center ">
+
+	<script>
+		
+		// Crear un método llamado Voltear que lo que hará es darle la vuelta a la cadena
+
+		String.prototype.voltearCadena = function(){
+			var salida = "";
+			for (var i = this.length -1; i >= 0; i--)
+			{
+				var salida = salida + this.substr(i, 1);
+			}
+			
+			alert(salida);
+			return salida;
+		}
+		
+		
+
+	</script>
+
+	<script>
+	
+	var laCadena = prompt("Dime qué volteo","");
+	laCadena.voltearCadena();
+
+	</script>
+
+</p>
+
+</div>
+</body>
+</html>

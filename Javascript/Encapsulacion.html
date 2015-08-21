@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Object (Extender Objetos Preconstruidos - Built-in)</title>	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+
+
+<p class="jumbotron h1 text-center ">
+
+	<script>
+		
+		// Todas las variables y métodos creados en un constructor solo son accesibles desde el mismo. Es decir, son private. Se acceden a ellos desde "this". Las variables son propiedades y las funciones y éstas sí son accesibles desde los objetos.
+
+		function Caja (ancho, largo, alto)
+		{
+			function volumen(a,b,c) // Esto es una función privada
+			{
+				return a*b*c;
+			}
+			this.volumenCaja = volumen(ancho, largo, alto);
+			// volumenCaja = volumen(ancho, largo, alto); // Esto sería una propiedad privada
+		}
+
+		var miCaja = new Caja(5,4,3);
+		
+
+	</script>
+
+	<button class = "btn btn-primary" onclick = "alert(miCaja.volumen);">Volumen de Mi caja MAL	</button>
+	<button class = "btn btn-primary" onclick = "alert('El volumen es: ' + miCaja.volumenCaja);">Volumen de Mi caja BIEN</button>
+
+</p>
+
+</div>
+</body>
+</html>

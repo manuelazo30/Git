@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cookies</title>	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+		<script>
+		
+		/*
+			Es un protocolo Stateless, es decir, que una vez que el servidor manda la página al navegador considera la transacción finalizada y no guarda nada de la transacción.
+			Cuando se vuelve a solicitud la página al servidor no guardará nada de información sobre la petición anterior.
+			Para traspasar información de una página a otra se usan los cookies.
+			Las cookies guardan y almacenan pequeños trozos de información en el ordenador DEL CLIENTE (usuario logado, preferencias del usuario, fechas de visitas, etc.)
+			Las cookies son strings de información y pueden ser leídas por una página dentro del mismo dominio.
+			Las cookies expiran pasadas un cierto tiempo
+			Las cookies se pueden desactivar, así que OJO!
+			Las propiedades son almacenados y recuperadas usando la propiedad document.cookie
+			Son pares nombre = valor
+			Cuando cargamos una página, el navegador carga todas las cookies disponibles de esa página como una única propiedad stringlike que va a estar disponible como document.cookie. Las cookies individuales estarán separadas por ; (punto y coma)
+			No pueden tener coma, punto y coma, tabulador, espacios en blanco
+			La función escape() codifica un valor antes de almacenar la cookie (Por ej.: un espacio en blanco lo convierte a %20)
+			La función unescape() decodifica un valor antes de almacenar la cookie.
+			La especificación para cookies fue publicada en el 2011 a través de la RFC 6265
+			Atributos:
+
+				- domain: Le dice al navegador el dominio al que pertenece la cookie. Su valor predeterminada es el dominio en cuestión. Ojo si queremos acceder a subdominios ha de ser "ejemplo.com", no "www.ejemplo.com"
+				- path: Nos permite especificar el alcance de la cookie (donde estará disponible la cookie. "/" será para todo el dominio)
+				- secure: El navegador ha de usar SSL para enviar la cookie al servidor.
+				- expires: Fecha de expiración de la cookie. El tiempo ha de estar en tiempo UTC. El valor por defecto es la sesión actual del navegador y se borrar al cerrarse, si no se rellena.
+		*/
+
+		window.onload = function()
+		{
+		
+		
+		var lacookie = '';
+			/*var str = 'Esto es un espacio de texto, (corto)';
+			document.getElementsByClassName('jumbotron')[0].innerHTML = 'La variable sin aplicar la variable escape() contiene el string \'' + str + '\'<br/><br/><br/>La variable aplicando la variable escape() contiene el string \'' + escape(str) + '\'<br/>';
+			*/
+
+			/*document.cookie = "nombreUsuario = \"manuel\"; expires = \"13/11/2015 00:00:00\"";
+			// Esto sería equivalente a:
+			var endDateCookie = new Date(2015,11,13);
+			document.cookie = "nombreUsuario = \"manuel\"; expires = " + endDateCookie.toUTCString();*/
+			// Aunque como hemos dicho, hay que codificar la cookie para quitar caracteres no válidos, por lo que ....
+/*			var endDateCookie = new Date(2015,7,28); //Ojo que aquí el mes comienza en 0 el mes de Enero, por lo que el mes 8 (Agosto) es 7
+			var usuario = 'Manolito'
+			document.cookie = "nombreUsuario = " + escape(usuario) +"; expires = " + endDateCookie.toUTCString();
+*/
+			function createCookie(nombre, valor, diasExpiracion, ruta, dominio, SSL)
+
+			{
+				lacookie = '';
+				var fechaFinCookie = new Date();
+
+				if (diasExpiracion)
+				{
+					fechaFinCookie.setTime(fechaFinCookie.getTime() + (diasExpiracion * 24 * 60 * 60 * 1000));
+				}
+				else
+				{
+					fechaFinCookie.setTime(fechaFinCookie.getTime() + (1 * 24 * 60 * 60 * 1000));
+				}
+
+				var expires = fechaFinCookie.toGMTString();
+
+				lacookie += nombre + '=' + escape(valor);
+
+				if (expires)
+				{
+					lacookie += '; expires=' + expires;
+				}
+
+				if (ruta)
+				{
+					lacookie += '; path=' + escape(ruta);
+				}
+
+				if (dominio)
+				{
+					lacookie += '; domain=' + escape(dominio);
+				}			
+
+				if (SSL)
+				{
+					lacookie += '; secure';
+				}	
+
+			
+
+			document.cookie = lacookie;
+			//alert(lacookie);
+
+			}
+
+			function leerCookies()
+			{
+				var todasLasCookies = document.cookie.split(';');
+
+				for (var i = 0; i < todasLasCookies.length; i++)
+				{
+					var propiedad = todasLasCookies[i];
+					document.writeln(unescape(propiedad.substr(propiedad.indexOf('=')+1,propiedad.length)));
+				}
+			}
+
+		
+		createCookie('NombreCookie', 'ValorCookie', null, null, null, null);
+		createCookie('NombreCookie1', 'ValorCookie1', 4, null, null, null);
+		createCookie('NombreCookie2', 'ValorCookie2', 5, '/', 'manuelazo.com', null);
+		createCookie('NombreCookie3', 'ValorCookie3', 6, '/borrar', 'manuelazo.com', null);
+
+		leerCookies();
+		
+		
+		
+		// Para leer una cookie, usamos el método split("caracter separador") y devulve un array de items
+
+		/*var cadena = 'Norte;Sur;Este;Oeste';
+		var miArray = cadena.split(';');
+
+		for (i in miArray)
+		{
+			document.write(i + '=' + miArray[i] + '<br/>');
+		}
+		*/
+
+		/*var trozos = document.cookie.split(';');
+
+		for (i in trozos)
+		{
+			document.write(trozos[i] + '<br/>');
+		}
+
+		document.write("<br/><br/>AHORA VAMOS A CONSULTAR LAS COOKIES");*/
+
+		/* 
+
+		Método indexOf() --> Devuelve la posición del primer carácter del string que se le pase como argumento
+		Método substring() --> Recupera un string dentro de un string desde un carácter hasta un carácter
+		Método charAt() --> Devolver el carácter con un índice que le pasaremos como argumento
+
+		*/
+	
+	}
+
+		
+
+		// Buscar el igual, obtener la posición y de ahí en adelante devolverlo
+
+	</script>
+
+
+</head>
+<body>
+<div class="container">
+
+<div class="jumbotron h1">
+
+</div>
+<!-- <a href="http://www.as.com" target="_blank" id = "IrAAs">Ir a as.com</a> -->
+</div>
+</body>
+</html>

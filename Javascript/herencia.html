@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Object (Fucniones Anónimas - Constructores)</title>	
+	<title>Object (Herencia)</title>	
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 </head>
 <body>
@@ -14,10 +14,12 @@
 
 	<script>
 		
-		function Persona(nombrePersona)
+		function Domestico()
 		{
-			this.nombre = nombrePersona;
-			this.mostrarNombre = function () { alert ('Esta persona se llama ' + this.nombre); }
+			this.animal = "";
+			this.nombre = "";
+			this.configurarAnimal = function (nuevoAnimal) { this.animal = nuevoAnimal; }
+			this.configurarNombre = function (nuevoNombre) { this.nombre = nuevoNombre; }
 		}
 
 		function escribemeUnTexto()
@@ -25,27 +27,28 @@
 			return prompt("Escribeme algo", "");
 		}
 
-		function Coche(lamarca, elmodelo, elcolor)
-		{
-			this.marca = lamarca;
-			this.modelo = elmodelo;
-			this.color = elcolor;
-			this.mostrarInformacion = function () {alert('Marca: ' + this.marca + '\nModelo: ' + this.modelo + '\nColor: ' + this.color) ; }
-		}	
+		var miGato = new Domestico();
+		miGato.configurarAnimal("Gato");
+		miGato.configurarNombre("Gargamel");
 
-		//var nuevaPersona1 = new Persona(escribemeUnTexto());
-		//var nuevaPersona2 = new Persona(escribemeUnTexto());
+		Perro.prototype = new Domestico(); // Aquí heredo de Domestico !!!
 		
-		//var nuevoCoche1 = new Coche(prompt("Dime marca del coche","");, prompt("Dime modelo del coche","");, prompt("Dime color del coche",""););
-		var nuevoCoche1 = new Coche('Ford', 'Focus', 'Azul');
-		var nuevoCoche2 = new Coche(var x = escribemeUnTexto();, var y = escribemeUnTexto();, var z = escribemeUnTexto());
+		function Perro()
+		{
+			this.animal = "Perro";
+			this.raza = "";
+			this.configurarRaza = function (nuevaraza) { this.raza = nuevaraza; }
+			this.mostrarInfo = function() {alert('El nombre del ' + this.animal + ' es: ' + this.nombre + '\nSu raza es: ' + this.raza);}
+		}
+
+		var miPerro = new Perro();
+		miPerro.configurarRaza("Mestizo");
+		miPerro.configurarNombre("Indi");
+
 
 	</script>
 
-	<button type="button" class="btn btn-info" onclick="nuevaPersona1.mostrarNombre()">¡¡¡ nuevaPersona1.mostrarNombre !!!</button>
-	<button type="button" class="btn btn-info" onclick="nuevaPersona2.mostrarNombre()">¡¡¡ nuevaPersona2.mostrarNombre !!!</button>
-	<button type="button" class="btn btn-info" onclick="nuevoCoche1.mostrarInformacion()">¡¡¡ nuevoCoche1.mostrarInformacion !!!</button>
-	<button type="button" class="btn btn-info" onclick="nuevoCoche2.mostrarInformacion()">¡¡¡ nuevoCoche2.mostrarInformacion !!!</button>
+	<button type="button" class="btn btn-info" onclick="miPerro.mostrarInfo()">¡¡¡ miPerro.mostrarInfo() !!!</button>
 
 </p>
 

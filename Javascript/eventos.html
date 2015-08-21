@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>JSON</title>	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+		<script>
+		
+		/*
+			Un evento es algo que pasa que desencadena una acción.
+			Los eventos más comunes es hacer click, doble click, colocar el cursor en algún sitio o terminar de cargar una página web
+			Un gestor de eventos es el código que nos permite detectar cuándo tiene lugar un evento y decidir qué hay que hacer cuando sucede un evento.
+			Los gestores de Eventos INLINE mezclan código javascript y html, algo ¡¡¡ desaconsejado totalmente !!!
+		*/
+
+		function alertaBoton()
+		{
+			alert("Me has pulsado");
+		}
+
+		window.onload = function() {
+			document.getElementById("MiBoton2").onclick = alertaBoton;
+		}
+		
+	</script>
+
+
+</head>
+<body>
+<div class="container">
+
+<div class="jumbotron h1 text-center">
+
+</div>
+<button class = "btn btn-primary" id ="MiBoton" onclick="alertaBoton()">Con onclick INLINE ...</button>
+<button class = "btn btn-primary" id ="MiBoton2">Sin onclick INLINE</button>
+</div>
+
+	<script>
+		
+		/*
+			Un evento es algo que pasa que desencadena una acción.
+			Los eventos más comunes es hacer click, doble click, colocar el cursor en algún sitio o terminar de cargar una página web
+			Un gestor de eventos es el código que nos permite detectar cuándo tiene lugar un evento y decidir qué hay que hacer cuando sucede un evento.
+			Los gestores de Eventos INLINE mezclan código javascript y html, algo ¡¡¡ desaconsejado totalmente !!!
+		*/
+
+/*		function alertaBoton()
+		{
+			alert("Me has pulsado");
+		}
+
+		document.getElementById("MiBoton2").onclick = alertaBoton;
+*/		
+	</script>
+
+</body>
+</html>

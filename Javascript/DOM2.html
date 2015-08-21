@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cookies</title>	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+	<script>
+
+	window.onload = function()
+
+	{
+
+		function dameHijosDeNodo(nodo)
+		{
+			var losNodos = document.body.childNodes;
+			alert(losNodos)
+			for (Nodito in losNodos)
+			{
+				console.log(losNodos[Nodito]);
+			}
+
+		}
+
+	dameHijosDeNodo('body');
+
+	}
+
+	</script>
+
+
+</head>
+<body>
+<div class="container">
+
+<div class="jumbotron h1">
+
+	<p>Cada nodo tiene la propiedad childnode que devuelve una colección de sus hijos inmediatos indexados numéricamente. Se ve y se comporta como un Array en cuanto a cómo acceder e iterar</p>
+	<p>Es viva, por lo que se actualiza sin necesidad de recargar la página</p>
+</div>
+<!-- <a href="http://www.as.com" target="_blank" id = "IrAAs">Ir a as.com</a> -->
+</div>
+</body>
+</html>

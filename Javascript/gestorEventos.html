@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>JSON</title>	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+		<script>
+		
+		/*
+			El gestor de Eventos se ejecuta antes que la acción por defecto de la etiqueta HTML
+		*/
+
+	window.onload = validarFormulario;
+
+	function validarFormulario()
+	{
+		document.getElementById('gestorEventos_submit').onsubmit = function()
+		{
+			var formOK = true;
+			if (document.getElementById('idNombre').value == "")
+				{
+					document.getElementsByClassName("hola")[0].innerHTML = "Campo obligatorio";
+					formOK = false;
+				}
+			
+			if (formOK)
+			{
+				alert ("Se enviará el formulario");
+			}
+		return formOK;			
+		}
+	}
+	</script>
+
+
+</head>
+<body>
+<div class="container">
+
+<div class="jumbotron h1">
+	<form id="gestorEventos_submit" method="get" accept-charset="utf-8">
+		Nombre: &nbsp;<input type="text" id = "idNombre" value = "" name = "txtNombre"> <span class = "hola">*</span></input><br/>
+		Teléfono: <input type="text" id = "idTelefono" value = "" name = "txtTelefono"></input><br/><br/>
+		<button type="submit" class="btn btn-primary">Enviar</button>
+		<button type="reset" class="btn btn-primary">Limpiar Formulario</button>
+	</form>
+</div>
+<!-- <a href="http://www.as.com" target="_blank" id = "IrAAs">Ir a as.com</a> -->
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Object (Prototypes)</title>	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+
+
+<p class="jumbotron h1 text-center ">
+
+	<script>
+		
+		function Persona(nombrePersona)
+		{
+			this.nombre = nombrePersona;
+			this.mostrarNombre = function () { alert ('Esta persona se llama ' + this.nombre); }
+		}
+
+		function escribemeUnTexto()
+		{
+			return prompt("Escribeme algo", "");
+		}
+
+		var nuevaPersona1 = new Persona(escribemeUnTexto());
+		var nuevaPersona2 = new Persona(escribemeUnTexto());
+
+		Persona.prototype.DNI = function(){
+			var elDNI = escribemeUnTexto();
+			alert('El DNI de ' + this.nombre + ' es: ' + elDNI);
+		};
+
+	</script>
+
+	<button type="button" class="btn btn-info" onclick="nuevaPersona1.mostrarNombre()">¡¡¡ nuevaPersona1.mostrarNombre !!!</button>
+	<button type="button" class="btn btn-info" onclick="nuevaPersona2.mostrarNombre()">¡¡¡ nuevaPersona2.mostrarNombre !!!</button>
+	<button type="button" class="btn btn-info" onclick="nuevaPersona2.DNI()">¡¡¡ nuevaPersona2.DNI !!!</button>
+
+</p>
+
+</div>
+</body>
+</html>
